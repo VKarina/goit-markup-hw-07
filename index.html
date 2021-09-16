@@ -23,10 +23,10 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container header__container">
+      <div class="container container--header">
         <nav class="site-nav">
           <a href="./index.html" lang="en" class="logo link header__logo--head"
-            ><span class="header__logo--web">Web</span>Studio</a
+            ><span class="logo--web">Web</span>Studio</a
           >
           <ul class="list site-nav__list">
             <li class="site-nav__item">
@@ -471,68 +471,70 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer-section">
-      <div class="container footer-container">
+    <footer class="footer">
+      <div class="container container--footer">
         <div>
-          <a href="./index.html" class="logo link logo-footer"
-            ><span class="logo-web">Web</span>Studio</a
+          <a href="./index.html" class="logo link logo--footer"
+            ><span class="logo--web">Web</span>Studio</a
           >
           <address>
-            <div class="footer-address">г. Киев, пр-т Леси Украинки, 26</div>
-            <a href="mailto:info@example.com" class="link footer-contacts"
+            <div class="footer__address">г. Киев, пр-т Леси Украинки, 26</div>
+            <a href="mailto:info@example.com" class="link footer__link"
               >info@example.com</a
             ><br />
-            <a href="tel:+380991111111" class="link footer-contacts"
+            <a href="tel:+380991111111" class="link footer__link"
               >+38 099 111 11 11</a
             >
           </address>
         </div>
-        <div class="footer-social">
-          <p class="social-net-pre-text">Присоединяйтесь</p>
-          <ul class="list footer-social-net-list">
-            <li class="item">
-              <a href="" class="link" target="blank" rel="nofollow noreferrer">
-                <svg class="footer-social-net" width="20px" height="20px">
+        <div class="footer-social-net">
+          <p class="footer-social-net__text">Присоединяйтесь</p>
+          <ul class="list footer-social-net__list">
+            <li class="footer-social-net__item">
+              <a href="" class="footer-social-net__link" target="blank" rel="nofollow noreferrer">
+                <svg class="footer-social-net__icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="link" target="blank" rel="nofollow noreferrer">
-                <svg class="footer-social-net" width="20px" height="20px">
+            <li class="footer-social-net__item">
+              <a href="" class="footer-social-net__link" target="blank" rel="nofollow noreferrer">
+                <svg class="footer-social-net__icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="link" target="blank" rel="nofollow noreferrer">
-                <svg class="footer-social-net" width="20px" height="20px">
+            <li class="footer-social-net__item">
+              <a href="" class="footer-social-net__link" target="blank" rel="nofollow noreferrer">
+                <svg class="footer-social-net__icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="link" target="blank" rel="nofollow noreferrer">
-                <svg class="footer-social-net" width="20px" height="20px">
+            <li class="footer-social-net__item">
+              <a href="" class="footer-social-net__link" target="blank" rel="nofollow noreferrer">
+                <svg class="footer-social-net__icon" width="20px" height="20px">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
+
+        <!-- Footer form -->
         <form action="/" class="footer-form">
-          <b class="subscribe-title">Подпишитесь на рассылку</b>
-          <div class="subscribe-area">
+          <b class="footer-form__title">Подпишитесь на рассылку</b>
+          <div class="footer-form__subscribe">
             <input
-              class="subscribe-input"
+              class="footer-form__input"
               type="text"
               name="subscribe-text"
               id="subscribe-text"
             />
-            <label class="subscribe-label" for="subscribe-text">E-mail</label>
-            <button class="subscribe-btn" type="submit">
+            <label class="footer-form__label" for="subscribe-text">E-mail</label>
+            <button class="footer-form__btn" type="submit">
               Подписаться
-              <svg class="subscribe-btn-icon" width="24px" height="24px">
+              <svg class="footer-form__icon" width="24px" height="24px">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
