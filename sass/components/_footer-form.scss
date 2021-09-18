@@ -1,0 +1,71 @@
+.footer-form {
+  width: 100%;
+}
+
+.footer-form__subscribe {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.footer-form__title {
+  margin-left: 195px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-form__label {
+  position: absolute;
+  top: 50%;
+  left: 210px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-form__input {
+  width: 358px;
+  background-color: inherit;
+  border-style: inset;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding-left: 65px;
+  outline: none;
+}
+
+.footer-form__btn {
+  position: relative;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 29px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer-form__icon {
+  position: absolute;
+  top: 50%;
+  right: 13px;
+  transform: translateY(-50%);
+  fill: #ffffff;
+}

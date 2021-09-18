@@ -1,0 +1,31 @@
+.advantages-title {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $secondaryTitleColor;
+}
+
+.advantages-text {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $mainTextColor;
+}
+
+.item-background {
+  padding: 25px 100px;
+  background-size: 270px 120px;
+  background-color: #f5f4fa;
+}
+
+.about-list {
+  display: flex;
+
+  .item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
